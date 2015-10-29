@@ -24,7 +24,7 @@ public class UnionFind {
 	}
 	
 	private void print() {
-		System.out.print("Array:");
+		System.out.print("Array::");
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i]+" ");
 		}
