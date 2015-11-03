@@ -50,7 +50,7 @@ public class UnionFind {
 	
 	private int root(int index) {
 		while (array[index] != index) {
-//			array[index] = array[array[index]];
+			array[index] = array[array[index]];
 			index = array[index];
 		}
 		return index;
